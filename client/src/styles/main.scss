@@ -1,0 +1,50 @@
+.root
+{
+    position: fixed;
+    
+    width: 100%;
+}
+
+.title {
+    
+    flex-grow: 1;
+}
+
+.btn {
+    position: fixed;
+    top: 15%;
+    left: 90%;
+    border-radius: 100px 100px 100px 100px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(0, 38, 255, 0.973);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 8px 40px;
+    border: 5px;
+    cursor: pointer;  
+    border-color: black;
+  
+  }
+  .btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 4, 255);
+    border-color: black;
+    
+  }
+.pt-1
+{
+    padding-left: 10px;
+}
+.pr-1 {
+    padding-right: 50px;
+    margin-left: 10px;
+}
+.form {
+    margin-left: 30px;
+    width: 200px;
+}
+.tabledata {
+    
+    margin-top: 200px;
+}
